@@ -1,1 +1,1 @@
-# MBTI_Classification-project
+# MBTI 별 텍스트 분류 프로젝트
