@@ -1,5 +1,6 @@
-# MBTI 별 텍스트 분석 및 분류 프로젝트
-![미니프로젝트_2조_1](https://github.com/AhnHz/MBTI-Classification-project/assets/132975657/abb8b9a7-058d-4cf9-96b2-76c334c25b0b)
+
+![미니프로젝트_2조](https://github.com/AhnHz/SQL-study/assets/132975657/9809bbf3-464a-496f-a25b-5ac0af97027c)
+
 <br/>
 
 ## :family: 팀원
