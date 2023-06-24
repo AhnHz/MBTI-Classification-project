@@ -453,7 +453,7 @@ class Dataset(torch.utils.data.Dataset):
 
 ## :bar_chart: 프로젝트 내용
 
-### BERT 모델이란?
+### BERT(Bidirectional Encoder Representations from Transformers) 모델이란?
 ![미니프로젝트_2조_1](https://github.com/AhnHz/Algorithm-study/assets/132975657/76271296-24b7-4a8f-9d00-4ef82f8cfb9e)
 
 ![미니프로젝트_2조_2](https://github.com/AhnHz/Algorithm-study/assets/132975657/8eb31233-c310-4d33-853e-2e40c67559b8)
@@ -464,23 +464,47 @@ class Dataset(torch.utils.data.Dataset):
 
 ### 모델 학습 결과
 ![미니프로젝트_2조_4](https://github.com/AhnHz/Algorithm-study/assets/132975657/f0d32816-2ee9-4f4b-96c5-a6c2eda15030)
+- 훈련 정확도는 어느 정도 높게 나왔지만 검증 정확도는 에포크 5부터 약 0.79에 머물렀고 테스트 정확도는 0.8 정도로 나왔다.  
+
 
 <br/>
 
 ### 모델 테스트 결과
+#### MBTI 유형 별 정확도
 ![미니프로젝트_2조_5](https://github.com/AhnHz/Algorithm-study/assets/132975657/81df1758-fd4f-4895-8b80-5af75bd3df7a)
 
+#### 잘못 예측된 MBTI 유형 분석
 ![미니프로젝트_2조_7](https://github.com/AhnHz/Algorithm-study/assets/132975657/511633d8-982e-450c-b466-ac0da3f01616)
 
 ![미니프로젝트_2조_8](https://github.com/AhnHz/Algorithm-study/assets/132975657/241608e7-9182-47ca-8d6f-623aa3eb566f)
+- 잘못 예측된 MBTI 유형은 단순히 예측에 실패한 것이 아니라 특정 유형끼리 연관성을 보인다는 것을 알 수 있었다.
+- 이를 분석해 `연관 패턴` 과 `일대일 패턴` 을 정의했다.
 
 <br/>
 
-### 테스트에 실패한 유형 및 테스트 실패 원인 분석
+### 테스트에 실패한 유형 및 실패 원인 분석
 ![미니프로젝트_2조_6](https://github.com/AhnHz/Algorithm-study/assets/132975657/2d195359-8631-440e-a15d-24adaca39aca)
 
 <br/>
 
+### 모델의 활용
+![미니프로젝트_2조_9](https://github.com/AhnHz/Algorithm-study/assets/132975657/8144f33b-e19c-4c30-a952-c57c7f4c0714)
 
+![미니프로젝트_2조_10](https://github.com/AhnHz/Algorithm-study/assets/132975657/9ba91fc3-e3a5-4a8d-be4c-8b6bb5c1a7ee)
 
+<br/>
 
+## 이슈 해결 과정
+### 데이터 불균형 문제
+![미니프로젝트_2조_11](https://github.com/AhnHz/Algorithm-study/assets/132975657/50b62ca8-586f-4389-8d48-0815cf7a0387)
+
+- 처음엔 MBTI를 16개의 유형으로 다중 분류하는 것이 아닌 알파벳 자릿수 별로 **4번의 이진 분류**하는 방법을 고안했다.  
+  :warning: 중복 데이터가 늘어나고 정확성이 떨어지는 문제로 기각
+
+- 모델 학습 시간과 유형 별 불균형을 완화하기 위해 과다한 유형 데이터를 **1000개로 다운샘플링**했다.
+
+- 1000개 미만의 데이터를 가진 유형은 기존의 데이터를 이용한 **중복 데이터를 추가**했다.
+
+<br/>
+
+## 아쉬운 점
