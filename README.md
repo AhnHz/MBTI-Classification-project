@@ -470,6 +470,10 @@ class Dataset(torch.utils.data.Dataset):
 ### 모델 테스트 결과
 ![미니프로젝트_2조_5](https://github.com/AhnHz/Algorithm-study/assets/132975657/81df1758-fd4f-4895-8b80-5af75bd3df7a)
 
+![미니프로젝트_2조_7](https://github.com/AhnHz/Algorithm-study/assets/132975657/511633d8-982e-450c-b466-ac0da3f01616)
+
+![미니프로젝트_2조_8](https://github.com/AhnHz/Algorithm-study/assets/132975657/241608e7-9182-47ca-8d6f-623aa3eb566f)
+
 <br/>
 
 ### 테스트에 실패한 유형 및 테스트 실패 원인 분석
