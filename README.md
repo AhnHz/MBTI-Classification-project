@@ -448,3 +448,35 @@ class Dataset(torch.utils.data.Dataset):
     13. ~ 22코드설명
     
      23.  ~27모델 분석 & 활용
+
+<br/>
+
+## :bar_chart: 프로젝트 내용
+
+### BERT 모델이란?
+![미니프로젝트_2조_1](https://github.com/AhnHz/Algorithm-study/assets/132975657/76271296-24b7-4a8f-9d00-4ef82f8cfb9e)
+
+![미니프로젝트_2조_2](https://github.com/AhnHz/Algorithm-study/assets/132975657/8eb31233-c310-4d33-853e-2e40c67559b8)
+
+![미니프로젝트_2조_3](https://github.com/AhnHz/Algorithm-study/assets/132975657/e766d589-4fb7-4e25-8bab-5315afce99c9)
+
+<br/>
+
+### 모델 학습 결과
+![미니프로젝트_2조_4](https://github.com/AhnHz/Algorithm-study/assets/132975657/f0d32816-2ee9-4f4b-96c5-a6c2eda15030)
+
+<br/>
+
+### 모델 테스트 결과
+![미니프로젝트_2조_5](https://github.com/AhnHz/Algorithm-study/assets/132975657/81df1758-fd4f-4895-8b80-5af75bd3df7a)
+
+<br/>
+
+### 테스트에 실패한 유형 및 테스트 실패 원인 분석
+![미니프로젝트_2조_6](https://github.com/AhnHz/Algorithm-study/assets/132975657/2d195359-8631-440e-a15d-24adaca39aca)
+
+<br/>
+
+
+
+
