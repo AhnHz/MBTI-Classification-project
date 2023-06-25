@@ -507,4 +507,3 @@ class Dataset(torch.utils.data.Dataset):
 
 <br/>
 
-## 아쉬운 점
