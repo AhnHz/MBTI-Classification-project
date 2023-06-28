@@ -25,7 +25,7 @@
 - 다른 게시물 작성자의 MBTI 분포를 확인할 수 있다.
 
 <br/>
-
+<!--
 ## :running: 프로젝트 진행 과정
 ### 1일차 ( 4시간 )
 
@@ -450,6 +450,7 @@ class Dataset(torch.utils.data.Dataset):
      23.  ~27모델 분석 & 활용
 
 <br/>
+-->
 
 ## :bar_chart: 프로젝트 내용
 
