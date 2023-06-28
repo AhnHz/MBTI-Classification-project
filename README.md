@@ -494,7 +494,7 @@ class Dataset(torch.utils.data.Dataset):
 
 <br/>
 
-## 이슈 해결 과정
+## :scissors: 이슈 해결 과정
 ### 데이터 불균형 문제
 ![미니프로젝트_2조_11](https://github.com/AhnHz/Algorithm-study/assets/132975657/50b62ca8-586f-4389-8d48-0815cf7a0387)
 
