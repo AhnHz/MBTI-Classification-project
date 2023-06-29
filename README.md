@@ -25,7 +25,7 @@
 - 다른 게시물 작성자의 MBTI 분포를 확인할 수 있다.
 
 <br/>
-<!--
+
 ## :running: 프로젝트 진행 과정
 ### 1일차 ( 4시간 )
 
@@ -236,7 +236,7 @@
 5. **이후 진행 계획** 
 - 축약어 정리 및 처리 논의
 - 모델 학습  
-** 참고사이트 : [[Pytorch][BERT] 버트 소스코드 이해_④ BertModel (tistory.com)](https://hyen4110.tistory.com/90)
+- 참고사이트 : [[Pytorch][BERT] 버트 소스코드 이해_④ BertModel (tistory.com)](https://hyen4110.tistory.com/90)
 
 <br/>
 
@@ -353,7 +353,7 @@
 
 - BERT 사용하여 데이터셋 훈련 
 - tokenizer = BertTokenizer.from_pretrained('bert-base-cased') ⇒ BertModel.from_pretrained('bert-large-uncased') 코드 수정  
-**정확도 약 77%**
+**`정확도 약 77%`**
     
 - 코드해석
 
@@ -450,7 +450,7 @@ class Dataset(torch.utils.data.Dataset):
      23.  ~27모델 분석 & 활용
 
 <br/>
--->
+
 
 ## :bar_chart: 프로젝트 내용
 
@@ -495,7 +495,7 @@ class Dataset(torch.utils.data.Dataset):
 
 <br/>
 
-## :scissors: 이슈 해결 과정
+## :scissors: Trouble Shooting
 ### 데이터 불균형 문제
 ![미니프로젝트_2조_11](https://github.com/AhnHz/Algorithm-study/assets/132975657/50b62ca8-586f-4389-8d48-0815cf7a0387)
 
