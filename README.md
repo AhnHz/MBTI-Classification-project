@@ -1,3 +1,4 @@
+[Project Data(BERT ModelData, CSV Data)](https://drive.google.com/drive/folders/1RpiNPAqSp0TLooxiZDREexODc94jlhLF?usp=drive_link)
 
 ![미니프로젝트_2조](https://github.com/AhnHz/SQL-study/assets/132975657/9809bbf3-464a-496f-a25b-5ac0af97027c)
 
