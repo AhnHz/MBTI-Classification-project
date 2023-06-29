@@ -1,4 +1,4 @@
-[Project Data(BERT ModelData, CSV Data)](https://drive.google.com/drive/folders/1RpiNPAqSp0TLooxiZDREexODc94jlhLF?usp=drive_link)
+
 
 ![미니프로젝트_2조](https://github.com/AhnHz/SQL-study/assets/132975657/9809bbf3-464a-496f-a25b-5ac0af97027c)
 
@@ -19,11 +19,12 @@
 <br/>
 
 ## :page_with_curl: 프로젝트 개요
-- 사용한 데이터 : [MBTI Personality Types 500 Dataset](https://www.kaggle.com/datasets/zeyadkhalid/mbti-personality-types-500-dataset)
+- 원본 데이터 : [MBTI Personality Types 500 Dataset](https://www.kaggle.com/datasets/zeyadkhalid/mbti-personality-types-500-dataset)
 - 자연어 처리(NLP)  +  딥러닝
 - Bert model 과 torch 를 이용함.
 - 텍스트를 통해 작성자 MBTI 예측할 수 있다.
 - 다른 게시물 작성자의 MBTI 분포를 확인할 수 있다.
+- 전처리한 데이터와 학습시킨 모델 : [Project Data(BERT ModelData, CSV Data)](https://drive.google.com/drive/folders/1RpiNPAqSp0TLooxiZDREexODc94jlhLF?usp=drive_link)
 
 <br/>
 
