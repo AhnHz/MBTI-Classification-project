@@ -513,9 +513,6 @@ class Dataset(torch.utils.data.Dataset):
 ## :sweat: 아쉬운 점
 - 안현주
 - 이성철
-      <div style="border: 1px solid black; padding: 10px;">
-후기 내용을 여기에 작성하세요.
-</div>
 - 이경주
 - 장수현
 - 정승균
