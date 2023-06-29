@@ -513,7 +513,7 @@ class Dataset(torch.utils.data.Dataset):
 ## :sweat: 아쉬운 점
 - 안현주 : 
 - 이성철 : 
-- 이경주 : 
+- 이경주 :           
 - 장수현 : 
 - 정승균 : 
 - 홍량택 : 
